@@ -1,0 +1,23 @@
+ * {
+            box-sizing: border-box;
+        }
+
+        #checkmate_board {
+            display: flex;
+            flex-wrap: wrap;
+            width: 400px;
+        }
+
+        .black_square {
+            width: 50px;
+            height: 50px;
+            background-color: black;
+            border: 1px solid black;
+        }
+
+        .white_square {
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            border: 1px solid black;
+        }
